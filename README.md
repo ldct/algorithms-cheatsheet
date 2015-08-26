@@ -1,8 +1,17 @@
 # interview-cheatsheet
 
-## Python
+## Python tricks
 
-### Sets
+```python
+a = ['?'] * N # initialize array
+assert float('-inf') < -1000 < 1000 < float('+inf')
+for i, elem in enumerate(["a", "b", "c"]):
+	pass
+```
+
+## Python Data Structures
+
+### sets
 
 ```python
 s = set()
@@ -11,11 +20,32 @@ s.add(4)
 s.remove(3)
 ```
 
+### defaultdict
+
+```python
+from collections import defaultdict
+d = defaultdict(int) # pass a constructor like int, list, tuple
+d['a'] += 1
+assert d['a']
+```
+
 ### OrderedDict
 
 ### Counter
 
+```python
+from collections import Counter
+C = Counter("abcefafgba")
+assert C['a'] == 3
+```
+
 ### heap
+
+### rounding
+
+```python
+pass
+```
 
 ## Algorithms
 
