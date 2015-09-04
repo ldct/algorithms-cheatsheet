@@ -41,6 +41,16 @@ assert C['a'] == 3
 
 ### heap
 
+```python
+pass
+```
+
+### queue
+
+```python
+pass
+```
+
 ### rounding
 
 ```python
