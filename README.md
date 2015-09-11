@@ -7,6 +7,7 @@ a = ['?'] * N # initialize array
 assert float('-inf') < -1000 < 1000 < float('+inf')
 for i, elem in enumerate(["a", "b", "c"]):
 	pass
+"%r" % (True) # %r formats via repr
 ```
 
 ## Python Data Structures
