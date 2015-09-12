@@ -1,4 +1,4 @@
-# interview-cheatsheet
+# algorithms-cheatsheet
 
 ## Python tricks
 
